@@ -1,0 +1,13 @@
+.conteudo {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.background {
+    position: absolute;
+    height: 120vh;
+    width: 100%;
+    left: 0;
+}
