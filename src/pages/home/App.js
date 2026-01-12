@@ -29,7 +29,7 @@ function App() {
           <hr/>
 
           <div>
-            <h4>Repositórios</h4>
+            <h4 className="repositorio">Repositórios</h4>
             <ItemList title="Titulo1" description="Descricao1"/>
             <ItemList title="Titulo2" description="Descricao2"/>
             <ItemList title="Titulo3" description="Descricao3"/>
