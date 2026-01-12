@@ -1,7 +1,7 @@
 import { Header } from "../../components/Header"
 import background from '../../assets/background.jpg'
 import './styles.css'
-
+import ItemList from '../../components/ItemList'
 
 
 function App() {
@@ -27,6 +27,13 @@ function App() {
           </div>
 
           <hr/>
+
+          <div>
+            <h4>Repositórios</h4>
+            <ItemList title="Titulo1" description="Descricao1"/>
+            <ItemList title="Titulo2" description="Descricao2"/>
+            <ItemList title="Titulo3" description="Descricao3"/>
+          </div>
 
         </div>
       </div>
