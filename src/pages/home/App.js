@@ -10,7 +10,16 @@ function App() {
       <Header/>
       <div className='conteudo'>
         <img src={background} className='background' alt='background'/>
+
+        <div className='info'>
+          <div>  
+            <input name="usuario" placeholder="@username"/>
+            <button>Buscar</button>            
+          </div>
+        </div>
       </div>
+
+      
     </div>
   );
 }
